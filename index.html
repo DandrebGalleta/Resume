@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Dandreb Galleta — Resume</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;font-family:Roboto,Arial,sans-serif;color:#111;background:#fff;}
+  .card{max-width:940px;margin:22px auto;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+  .topbar{height:12px;background:#0b57b7;margin-left:40px;width:140px}
+  .wrap{display:flex;gap:36px;padding:28px 44px}
+  .left{width:300px;flex-shrink:0}
+  .right{flex:1}
+
+  .photo{width:150px;height:150px;border-radius:50%;object-fit:cover;display:block;margin-bottom:14px}
+  h1{font-family:Montserrat,Arial,sans-serif;font-size:52px;line-height:0.95;margin:0 0 10px}
+
+  .section{margin:18px 0}
+  .section-heading{font-size:13px;font-weight:700;letter-spacing:1px;color:#0b57b7;text-transform:uppercase;margin:6px 0}
+  .section-heading.lined::before,
+  .section-heading.lined::after{
+    content:"";display:block;height:2px;background:#000;
+  }
+  .section-heading.lined::before{margin-bottom:8px}
+  .section-heading.lined::after{margin-top:8px}
+
+  p, li{color:#222;font-size:14px;line-height:1.5}
+  ul{padding-left:18px;margin:8px 0}
+  .panel{background:#f4f6f7;padding:14px;margin-top:12px}
+
+  .role{font-weight:700;margin-top:8px}
+  .company{font-style:italic;color:#444;font-size:13px;margin-bottom:8px}
+
+  .bottombar{height:16px;background:#0b57b7}
+
+  @media (max-width:820px){
+    .wrap{flex-direction:column;padding:18px}
+    .left{width:100%}
+    h1{font-size:36px}
+  }
+</style>
+</head>
+<body>
+
+<div class="card" role="document">
+  <div class="topbar" aria-hidden="true"></div>
+
+  <div class="wrap">
+    <div class="left">
+      <img src="resumepic.jpg" alt="Myfacegoeshere" class="photo">
+
+      <div class="section">
+        <h2 class="section-heading lined">CONTACT</h2>
+        <p>☎ 09622930241<br>✉ dandrebgalleta13@gmail.com<br>🌐 reallygreatsite.com</p>
+      </div>
+
+      <div class="section">
+        <h2 class="section-heading lined">EDUCATION</h2>
+        <p><strong>Senior High School - ICT Programming stand</strong><br><em>Unida Christian Colleges</em></p>
+        <p><strong>Bachelor of Science in Computer Engineering</strong><br><em>UP Diliman</em></p>
+      </div>
+
+      <div class="section">
+        <h2 class="section-heading lined">SKILLS</h2>
+        <div>
+          <strong>Professional</strong>
+          <ul>
+            <li>Computer Hardware Assembly & Troubleshooting</li>
+            <li>Basic Networking (LAN/WAN)</li>
+            <li>Microcontroller Programming (Arduino, Pi)</li>
+            <li>Python, C, Arduino IDE</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Individual</strong>
+          <ul>
+            <li>Patience Under Pressure</li>
+            <li>Team Collaboration & Communication</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <h1>DANDREB<br>GALLETA</h1>
+
+      <div class="section">
+        <h2 class="section-heading">PROFILE</h2>
+        <p>Capable of working independently or collaboratively in projects, with experience in creative writing, school presentations, and artistic design. Seeking opportunities to grow skills in media, design, or communications while contributing positively to team goals.</p>
+      </div>
+
+      <div class="panel">
+        <div class="section">
+          <h2 class="section-heading lined">EXPERIENCE</h2>
+          <div class="role">Computer Engineer</div>
+          <div class="company">FutureGen Tech Solutions, Apr 2030 - Present</div>
+          <ul>
+            <li>Assisted in assembling and troubleshooting desktops</li>
+            <li>Installed OS and drivers</li>
+            <li>Learned basics of LAN/WAN setup</li>
+          </ul>
+
+          <div class="role">PC Building & Repair (Freelance)</div>
+          <div class="company">Personal Tech Projects — since 2029</div>
+          <ul>
+            <li>Built custom PCs for friends/family</li>
+            <li>Diagnosed & maintained hardware/software</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2 class="section-heading lined">ACHIEVEMENTS</h2>
+          <p><strong>Top 10 Finalist</strong> — School Tech Innovators Fair (2029): Designed and presented a smart home system with Arduino sensors.</p>
+          <p><strong>Certificate of Completion</strong> — Basic Computer Hardware & Networking Workshop (2029): Completed 2-day training on PC assembly and networks.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottombar" aria-hidden="true"></div>
+</div>
+
+</body>
+</html>
